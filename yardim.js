@@ -1,5 +1,5 @@
-# v13-slash-yardim
 ArviS - V13 Slash Yardım Komutu
+İletişim: ArviSʼ#0011
 const { ApplicationCommandType, ApplicationCommandOptionType, ChatInputCommandInteraction, Client } = require('discord.js');
 
 module.exports = {
