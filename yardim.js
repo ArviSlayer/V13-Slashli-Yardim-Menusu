@@ -1,6 +1,6 @@
 ArviS - V13 Slash Yardım Komutu
 İletişim: ArviSʼ#0011
-const { ApplicationCommandType, ApplicationCommandOptionType, ChatInputCommandInteraction, Client } = require('discord.js');
+const { ApplicationCommandType, ApplicationCommandOptionType, ChatInputCommandInteraction, Client, EmbedBuilder } = require('discord.js');
 
 module.exports = {
     type: ApplicationCommandType.ChatInput,
@@ -13,7 +13,7 @@ module.exports = {
      * @param {Client} client The client of the bot.
      */
     async run(interaction, client) {
-        const ypm = new Discord.MessageEmbed()
+        const ypm = new EmbedBuilder()
   .setTitle('Lusia Yardım Menüsü')
   .setColor('#8387DE')
   .setDescription(
