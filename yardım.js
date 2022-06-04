@@ -1,5 +1,4 @@
 "ArviS - V13 Slash Yardım Komutu"
-"İletişim: ArviSʼ#0011"
 
 const { ApplicationCommandType, ApplicationCommandOptionType, ChatInputCommandInteraction, Client, EmbedBuilder } = require('discord.js');
 
